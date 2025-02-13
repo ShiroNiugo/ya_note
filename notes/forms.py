@@ -5,6 +5,12 @@ from django.core.exceptions import ValidationError
 
 from .models import Note
 
+
+BAD_WORDS = (
+    'редиска',
+    'негодяй',
+    # Дополните список на своё усмотрение.
+)
 WARNING = ' - такой slug уже существует, придумайте уникальное значение!'
 
 
